@@ -6,8 +6,8 @@ def init():
 
 
 def main():
-    operand1 = random.randint(1, 1000)
-    operand2 = random.randint(1, 1000)
+    operand1 = random.randint(1, 100)
+    operand2 = random.randint(1, 100)
     operation = random.choice('+-*')
     expression = f'{operand1} {operation} {operand2}'
     if operation == '+':

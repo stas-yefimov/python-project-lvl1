@@ -1,5 +1,4 @@
 import prompt
-# from brain_games.games import even
 
 
 def start_game(game):
