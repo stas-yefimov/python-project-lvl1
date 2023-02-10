@@ -6,10 +6,12 @@ def start_game(game):
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
     game.init()
+
     for count in range(3):
         question, correct_answer = game.main()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ').lower()
+
         if user_answer == correct_answer:
             print('Correct!')
         else:

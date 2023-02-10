@@ -12,4 +12,5 @@ def main():
     progression = [str(i) for i in range(start, stop, step)]
     items = random.choice(progression)
     progression[progression.index(items)] = '..'
+
     return ' '.join(progression), items
