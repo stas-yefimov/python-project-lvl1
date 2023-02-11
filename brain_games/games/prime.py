@@ -12,8 +12,10 @@ def is_prime(number):
     divider = 2
 
     while divider <= number / 2:
+
         if number % divider == 0:
             return False
+
         divider += 1
 
     return True

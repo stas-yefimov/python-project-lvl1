@@ -16,4 +16,5 @@ def main():
         answer = 'yes'
     else:
         answer = 'no'
+
     return number, answer
