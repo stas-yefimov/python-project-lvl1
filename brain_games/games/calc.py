@@ -1,11 +1,9 @@
 import random
 
-
-def init():
-    print('What is the result of the expression?')
+MEMO = 'What is the result of the expression?'
 
 
-def main():
+def get_question_and_answer():
     operand1 = random.randint(1, 100)
     operand2 = random.randint(1, 100)
     operation = random.choice('+-*')

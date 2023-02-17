@@ -1,11 +1,9 @@
 import random
 
-
-def init():
-    print('Find the greatest common divisor of given numbers.')
+MEMO = 'Find the greatest common divisor of given numbers.'
 
 
-def main():
+def get_question_and_answer():
     number1 = random.randint(1, 100)
     number2 = random.randint(1, 100)
     two_integers = f'{number1} {number2}'

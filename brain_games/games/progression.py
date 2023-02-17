@@ -1,11 +1,9 @@
 import random
 
-
-def init():
-    print('What number is missing in the progression?')
+MEMO = 'What number is missing in the progression?'
 
 
-def main():
+def get_question_and_answer():
     start = random.randint(1, 100)
     step = random.randint(1, 10)
     stop = start + 10 * step

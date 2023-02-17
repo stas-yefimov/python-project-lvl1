@@ -5,10 +5,10 @@ def start_game(game):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
-    game.init()
+    print(game.MEMO)
 
     for count in range(3):
-        question, correct_answer = game.main()
+        question, correct_answer = game.get_question_and_answer()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ').lower()
 
