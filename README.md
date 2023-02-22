@@ -1,3 +1,14 @@
+# “Brain Games” is a set of five console games. 
+# Each game asks questions that need to be answered correctly. 
+# After three correct answers, the game is considered to be completed. 
+# Wrong answers end the game and offer to play it again. 
+# Games:
+# Calculator. Arithmetic expressions to be evaluated.
+# Progression. Search for missing numbers in a sequence of numbers.
+# Definition of an even number.
+# Finding the Greatest Common Divisor.
+# Definition of a prime number.
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/stas-yefimov/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/stas-yefimov/python-project-lvl1/actions)
 

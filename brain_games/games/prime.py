@@ -15,16 +15,10 @@ def is_prime(number):
             return False
 
         divider += 1
-
     return True
 
 
 def get_question_and_answer():
     number = random.randint(1, 100)
-
-    if is_prime(number):
-        answer = 'yes'
-    else:
-        answer = 'no'
-
+    answer = 'yes' if is_prime(number) else 'no'
     return number, answer
